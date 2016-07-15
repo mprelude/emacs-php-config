@@ -12,9 +12,9 @@
 
 ;; Define place to load themes & modules from.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
-(add-to-list 'load-path "/home/mprelude/.emacs.d/modules/")
+(add-to-list 'load-path "~/.emacs.d/modules/")
 
-;; List of non-repo packages.
+;; List of non-repo packages to load.
 (require 'cl)
 (require 'package)
 (require 'php-cs-fixer)
@@ -41,7 +41,6 @@
                   find-file-in-project
                   flycheck
                   gist
-                  git-gutter
                   grizzl
                   highlight-indentation
                   htmlize
